@@ -1,0 +1,82 @@
+.navbar-header
+{
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	width: 100%;
+	position: relative;
+	
+}
+#llc{
+	text-align: left;
+	margin-left: 5px;
+}
+
+.navbar-brand h1
+{
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.75em;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0;
+	text-decoration: none;
+    position: relative;
+   
+}
+
+#title{
+	text-align: center;
+	width: 100%;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: brown;
+
+}
+
+#header {
+	margin: 15px 15px 30px;
+	padding: 5px 5px 5px ;
+	background-color: #835C3B;
+	font-family: 'Lora', serif;
+	color: white; 
+}
+#header div{
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Lora', serif;
+	padding-top: auto;
+
+}
+@media(max-width: 767px)
+{
+	#header{
+         margin:50px;
+         margin-bottom: 10px;
+	}
+	
+}
+.top{
+	font-size: 16px;
+	color: black;
+
+
+}
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: black;
+	text-align: center;
+	color: brown;
+}
+/*#nav-list a:hover{
+	background-color: white;
+}*/
+
+#nav-list a span{
+	font-size: 1.8em;
+}
